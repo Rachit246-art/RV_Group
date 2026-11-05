@@ -1358,8 +1358,35 @@ textarea.form-control {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
   font-size: 0.8rem;
   color: #64748b;
+}
+
+.footer-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  color: #94a3b8;
+}
+
+.footer-credit strong {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.footer-credit .sep {
+  color: #475569;
+  margin: 0 0.35rem;
+}
+
+.footer-credit .heart-icon {
+  color: #ef4444;
+  display: inline-block;
+  margin: 0 0.15rem;
 }
 
 /* Responsive queries */
