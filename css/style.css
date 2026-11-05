@@ -1372,10 +1372,18 @@ textarea.form-control {
   color: #94a3b8;
 }
 
-.footer-credit strong {
+.footer-credit strong,
+.footer-credit a {
   color: #ffffff;
   font-weight: 700;
   letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: color var(--tr-fast);
+}
+
+.footer-credit a:hover {
+  color: #ff4d55;
+  text-decoration: underline;
 }
 
 .footer-credit .sep {
