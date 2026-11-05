@@ -1291,8 +1291,8 @@ textarea.form-control {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
-  gap: 3rem;
+  grid-template-columns: 2.2fr 1fr 1fr 1fr 1fr 1.3fr;
+  gap: 2.2rem;
   margin-bottom: 4rem;
 }
 
@@ -1398,6 +1398,13 @@ textarea.form-control {
 }
 
 /* Responsive queries */
+@media (max-width: 1200px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
